@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listings</title>
+    <link rel="stylesheet" href="css/products.css">
+
+</head>
+<body>
+    <header>
+        <h1>All Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div class="filter-container">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Accessories">Accessories</option>
+            </select>
+
+            <label for="sort-filter">Sort by Price:</label>
+            <select id="sort-filter">
+                <option value="default">Default</option>
+                <option value="low-high">Low to High</option>
+                <option value="high-low">High to Low</option>
+            </select>
+        </div>
+
+        <div id="product-list" class="product-grid"></div>
+
+        <div class="pagination-container">
+            <button id="prev-page">Previous</button>
+            <span id="page-info"></span>
+            <button id="next-page">Next</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your go-to destination for quality products. Explore our wide range of categories and find the best deals.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@store.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Market Street, City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

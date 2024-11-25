@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Management</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+        <h1>Profile Management</h1>
+    </header>
+    <main>
+        <section id="profile-info">
+            <h2>Your Profile</h2>
+            <form id="update-profile-form">
+                <label for="profile-name">Name:</label>
+                <input type="text" id="profile-name" required>
+                <label for="profile-email">Email:</label>
+                <input type="email" id="profile-email" readonly>
+                <label for="profile-password">Password:</label>
+                <input type="password" id="profile-password" required>
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+        <section id="delete-account">
+            <h2>Danger Zone</h2>
+            <button id="delete-account-btn">Delete Account</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your go-to destination for quality products. Explore our wide range of categories and find the best deals.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@store.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Market Street, City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/auth.js"></script>
+</body>
+</html>
+

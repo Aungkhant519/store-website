@@ -1,0 +1,23 @@
+const products = [
+    { id: 1, name: "Sweater", description: "This is a great sweater.", price: 25.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: true },
+    { id: 2, name: "Jacket", description: "Stylish and warm jacket.", price: 60.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: false },
+    { id: 3, name: "Scarf", description: "Soft and cozy scarf.", price: 15.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: true },
+    { id: 4, name: "Hat", description: "Comfortable and trendy hat.", price: 20.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: false },
+    { id: 5, name: "Shoes", description: "Durable and stylish shoes.", price: 45.00, category: "Footwear", image: "https://via.placeholder.com/150", featured: true },
+    { id: 6, name: "Boots", description: "Waterproof boots for outdoor use.", price: 75.00, category: "Footwear", image: "https://via.placeholder.com/150", featured: false },
+    { id: 7, name: "T-Shirt", description: "Comfortable cotton t-shirt.", price: 18.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: true },
+    { id: 8, name: "Jeans", description: "Classic blue denim jeans.", price: 50.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: false },
+    { id: 9, name: "Backpack", description: "Spacious and sturdy backpack.", price: 40.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: false },
+    { id: 10, name: "Watch", description: "Elegant wristwatch for any occasion.", price: 120.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: true },
+    { id: 11, name: "Sunglasses", description: "Stylish sunglasses for sunny days.", price: 35.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: false },
+    { id: 12, name: "Sandals", description: "Lightweight and comfortable sandals.", price: 25.00, category: "Footwear", image: "https://via.placeholder.com/150", featured: true },
+    { id: 13, name: "Jersey", description: "Sports jersey for fitness enthusiasts.", price: 30.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: false },
+    { id: 14, name: "Belt", description: "Stylish leather belt.", price: 20.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: true },
+    { id: 15, name: "Wallet", description: "Compact and functional wallet.", price: 25.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: false },
+    { id: 16, name: "Dress", description: "Elegant evening dress.", price: 90.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: true },
+    { id: 17, name: "Blouse", description: "Casual and chic blouse.", price: 35.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: false },
+    { id: 18, name: "Sneakers", description: "Trendy sneakers for daily wear.", price: 60.00, category: "Footwear", image: "https://via.placeholder.com/150", featured: true },
+    { id: 19, name: "Suit", description: "Formal suit for special occasions.", price: 150.00, category: "Clothing", image: "https://via.placeholder.com/150", featured: true },
+    { id: 20, name: "Gloves", description: "Warm gloves for winter.", price: 15.00, category: "Accessories", image: "https://via.placeholder.com/150", featured: false },
+];
+

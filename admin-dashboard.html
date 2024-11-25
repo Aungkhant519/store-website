@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin-dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+        <button id="logout-btn">Logout</button>
+    </header>
+    <main>
+        <h2>Add New Product</h2>
+        <form id="product-form">
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" required><br>
+
+            <label for="product-description">Description:</label>
+            <input type="text" id="product-description" required><br>
+
+            <label for="product-price">Price:</label>
+            <input type="number" id="product-price" required><br>
+
+            <label for="product-category">Category:</label>
+            <input type="text" id="product-category" required><br>
+
+            <label for="product-image">Image URL:</label>
+            <input type="text" id="product-image" required><br>
+
+            <label for="product-featured">Featured (true/false):</label>
+            <input type="text" id="product-featured" required><br>
+
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+
+    <script src="js/admin-dashboard.js"></script>
+</body>
+</html>
